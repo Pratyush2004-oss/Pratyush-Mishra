@@ -1,3 +1,4 @@
+import About from "./sections/About";
 import Hero from "./sections/Hero";
 import Navbar from "./sections/Navbar";
 
@@ -8,13 +9,14 @@ function App() {
       <Navbar />
       {/* hero */}
       <Hero/>
-      <section className="min-h-screen"></section>
       {/* about */}
+      <About/>
       {/* projects */}
       {/* experience */}
       {/* testimonials */}
       {/* contact */}
       {/* footer */}
+      <section className="min-h-screen"></section>
     </div>
   );
 }
