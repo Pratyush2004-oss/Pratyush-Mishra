@@ -2,14 +2,24 @@ import { useState } from "react";
 import type { ProjectType } from "../types";
 import ProjectDetails from "./ProjectDetails";
 
-function Project({ project }: { project: ProjectType }) {
+function Project({
+  project,
+  setPreview,
+}: {
+  project: ProjectType;
+  setPreview: (preview: string | null) => void;
+}) {
   const [isHidden, setIsHidden] = useState(false);
   const closeModal = () => {
     setIsHidden(false);
   };
   return (
     <>
-      <div className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0 ">
+      <div
+        className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0"
+        onMouseEnter={() => setPreview(project.image)}
+        onMouseLeave={() => setPreview(null)}
+      >
         <div>
           <p className="text-2xl">{project.title}</p>
           <div className="flex gap-5 mt-2 text-sand">

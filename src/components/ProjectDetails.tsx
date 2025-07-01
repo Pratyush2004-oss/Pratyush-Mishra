@@ -1,5 +1,5 @@
 import type { ProjectType } from "../types";
-
+import {motion} from "motion/react";
 function ProjectDetails({
   project,
   closeModal,
@@ -9,7 +9,12 @@ function ProjectDetails({
 }) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center h-full w-full overflow-hidden backdrop-blur-sm">
-      <div className="relative max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10">
+      <motion.div 
+      className="relative max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
+      initial={{ opacity: 0, scale: 0.5 }}
+      animate={{ opacity: 1, scale: 1 }}
+      exit={{ opacity: 0, scale: 0.5 }}
+      >
         <button
           className="absolute top-5 right-5 bg-midnight hover:bg-gray-500 p-2 rounded-sm"
           onClick={closeModal}
@@ -51,7 +56,7 @@ function ProjectDetails({
               ))}
             </div>
             <a
-              href=""
+              href={project.href}
               className="inline-flex items-center gap-1 font-medium cursor-pointer hover:animation "
             >
               View Project
@@ -59,7 +64,7 @@ function ProjectDetails({
             </a>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

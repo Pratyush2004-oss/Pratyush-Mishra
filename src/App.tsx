@@ -1,4 +1,5 @@
 import About from "./sections/About";
+import Experience from "./sections/Experience";
 import Hero from "./sections/Hero";
 import Navbar from "./sections/Navbar";
 import Projects from "./sections/Projects";
@@ -15,6 +16,8 @@ function App() {
       {/* projects */}
       <Projects />
       {/* experience */}
+      <section className="min-h-[70vh] sm:min-h-[40vh]"></section>
+      <Experience />
       {/* testimonials */}
       {/* contact */}
       {/* footer */}
