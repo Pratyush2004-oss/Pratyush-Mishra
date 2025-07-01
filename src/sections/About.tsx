@@ -78,6 +78,16 @@ function About() {
               containerRef={grid2Container}
             />
             <Card
+              image="assets/logos/typescript.svg"
+              style={{
+                rotate: "30deg",
+                top: "70%",
+                left: "90%",
+                borderRadius: "30%",
+              }}
+              containerRef={grid2Container}
+            />
+            <Card
               image="assets/logos/vitejs.svg"
               style={{ rotate: "20deg", top: "20%", left: "5%" }}
               containerRef={grid2Container}
@@ -132,8 +142,6 @@ function About() {
             <Frameworks />
           </div>
         </div>
-        {/* Grid 6 */}
-        <div className="grid-default-color grid-6"></div>
       </div>
     </section>
   );

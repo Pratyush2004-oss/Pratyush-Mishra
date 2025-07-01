@@ -18,7 +18,8 @@ export function Frameworks() {
     "nextjs",
     "firebase",
     "expo",
-    "mongoDB"
+    "mongoDB",
+    "typescript",
   ];
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">
