@@ -3,6 +3,7 @@ import Experience from "./sections/Experience";
 import Hero from "./sections/Hero";
 import Navbar from "./sections/Navbar";
 import Projects from "./sections/Projects";
+import { Testimonials } from "./sections/Testimonials";
 
 function App() {
   return (
@@ -10,15 +11,15 @@ function App() {
       {/* navbar */}
       <Navbar />
       {/* hero */}
-      <Hero/>
+      <Hero />
       {/* about */}
-      <About/>
+      <About />
       {/* projects */}
       <Projects />
       {/* experience */}
-      <section className="min-h-[70vh] sm:min-h-[40vh]"></section>
       <Experience />
       {/* testimonials */}
+      <Testimonials />
       {/* contact */}
       {/* footer */}
       <section className="min-h-screen"></section>
