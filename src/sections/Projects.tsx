@@ -18,7 +18,7 @@ function Projects() {
   return (
     <section
       onMouseMove={handleMouseMove}
-      id="projects"
+      id="work"
       className="relative c-space section-spacing"
     >
       <h2 className="text-heading">My Selected Projects</h2>

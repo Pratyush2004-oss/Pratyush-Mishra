@@ -67,7 +67,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               </div>
               {item.contents.map((content, index) => (
                 <span className="flex">
-                  <p className="text-sm">✅</p>
+                  <p className="text-sm mt-1">✅</p>
                   <p
                     key={index}
                     className="text-neutral-400 dark:text-neutral-600 text-sm md:text-base mb-2 text-justify ml-2"
