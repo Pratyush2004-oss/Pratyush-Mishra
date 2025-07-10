@@ -1,5 +1,5 @@
 import type { ProjectType } from "../types";
-import {motion} from "motion/react";
+import { motion } from "motion/react";
 function ProjectDetails({
   project,
   closeModal,
@@ -9,11 +9,11 @@ function ProjectDetails({
 }) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center h-full w-full overflow-hidden backdrop-blur-sm">
-      <motion.div 
-      className="relative max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
-      initial={{ opacity: 0, scale: 0.5 }}
-      animate={{ opacity: 1, scale: 1 }}
-      exit={{ opacity: 0, scale: 0.5 }}
+      <motion.div
+        className="relative max-w-2xl border shadow-sm rounded-2xl bg-gradient-to-l from-midnight to-navy border-white/10"
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        exit={{ opacity: 0, scale: 0.5 }}
       >
         <button
           className="absolute top-5 right-5 bg-midnight hover:bg-gray-500 p-2 rounded-sm"
@@ -34,16 +34,17 @@ function ProjectDetails({
           <p className="font-normal mb-3 text-neutral-400">
             {project.description}
           </p>
-          <ul className="list-inside list-disc">
-            {project.subDescription.map((description, index) => (
-              <li
-                className="my-2 text-sm font-normal text-neutral-400"
+          {project.subDescription.map((description, index) => (
+            <div className="flex gap-1 my-2">
+              <p className="text-xs mt-1">✅</p>
+              <p
+                className="text-sm font-normal text-neutral-400"
                 key={index}
               >
                 {description}
-              </li>
-            ))}
-          </ul>
+              </p>
+            </div>
+          ))}
           <div className="flex items-center justify-between mt-4">
             <div className="flex gap-3">
               {project.tags.map((tag) => (

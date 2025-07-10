@@ -1,18 +1,18 @@
 export const myProjects = [
   {
     id: 1,
-    title: "AI-Sikshak",
+    title: "Online Learning App",
     description:
-      "Facilitates online learning for students with a focus on accessibility and affordability with the hepl of AI.",
+      "An AI-driven mobile learning app that creates personalized study material and provides real-time assistance through a chatbot.",
     subDescription: [
-      "Built a scalable mobile application with React Native for a cross-platform learning experience with integration of Gemini AI.",
-      "Implemented secure authentication and database management using Firebase Firestore and Firebase Authentication.",
-      "Designed a responsive StyleSheets for enhancing user experience.",
-      "Added Chatbot, Quiz, and Flashcards for functionality improvements.",
+      "Built using React Native for a seamless cross-platform mobile learning experience.",
+      "Integrated Gemini API to dynamically generate topic-based slides, flashcards, quizzes, and Q&A content.",
+      "Included an AI-powered chatbot to support interactive learning and real-time query resolution.",
+      "Used Firebase Authentication and Firestore for secure user login and real-time data management.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/onlinelearning.jpg",
     tags: [
       {
         id: 1,
@@ -21,35 +21,213 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "Expo",
-        path: "/assets/logos/expo.svg",
-      },
-      {
-        id: 3,
         name: "Firebase",
         path: "/assets/logos/firebase.svg",
       },
       {
-        id: 4,
+        id: 3,
         name: "Gemini",
         path: "/assets/logos/gemini.svg",
+      },
+      {
+        id: 3,
+        name: "Expo",
+        path: "/assets/logos/expo.svg",
       },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "DesignCraft - Editor Website",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "A web-based graphic design tool that enables users to create and customize designs similar to Canva with real-time editing and export capabilities.",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Developed a responsive design editor with drag-and-drop functionality using React and HTML5 Canvas.",
+      "Implemented layering, text/image manipulation, undo-redo, and custom templates for an intuitive design experience.",
+      "Integrated export functionality to download projects in image or PDF format.",
+      "Built an efficient state management and asset library for reusable design elements.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/editor.jpg",
+    tags: [
+      {
+        id: 3,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 2,
+        name: "Fabric.js",
+        path: "/assets/logos/fabric.svg",
+      },
+      {
+        id: 3,
+        name: "TailwindCSS",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 4,
+        name: "HTML5 Canvas",
+        path: "/assets/logos/html5.svg",
+      },
+      {
+        id: 5,
+        name: "Typescript",
+        path: "/assets/logos/typescript.svg",
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Music Player with Chat",
+    description:
+      "A full-stack music streaming platform with real-time chat and live listening status, built for social audio experiences.",
+    subDescription: [
+      "Developed a responsive music player using MERN stack allowing users to stream songs with real-time updates.",
+      "Integrated real-time chat and live listening status using Socket.IO for social interaction among users.",
+      "Implemented secure user authentication and session management using Clerk.",
+      "Built dynamic playlists and audio control UI for an interactive user experience.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/music-chat.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "MongoDB",
+        path: "/assets/logos/mongoDB.svg",
+      },
+      {
+        id: 2,
+        name: "Express",
+        path: "/assets/logos/expressjs.svg",
+      },
+      {
+        id: 3,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 4,
+        name: "Node.js",
+        path: "/assets/logos/nodejs.svg",
+      },
+      {
+        id: 5,
+        name: "Socket.IO",
+        path: "/assets/logos/socketIO.svg",
+      },
+      {
+        id: 6,
+        name: "Clerk",
+        path: "/assets/logos/clerk.jpeg",
+      },
+      {
+        id: 7,
+        name: "Typescript",
+        path: "/assets/logos/typescript.svg",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "JobNest - Online Job Portal",
+    description:
+      "A full-featured job portal that connects job seekers and recruiters with role-based dashboards and secure access.",
+    subDescription: [
+      "Built with the MERN stack to allow users to search and apply for jobs, manage resumes, and track application status.",
+      "Developed employer and applicant dashboards with features like job posting, application tracking, and profile management.",
+      "Implemented secure user authentication and role-based authorization to ensure data privacy and access control.",
+      "Optimized the platform for performance and responsive UI across devices.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/jobportal.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "MongoDB",
+        path: "/assets/logos/mongoDB.svg",
+      },
+      {
+        id: 2,
+        name: "Express",
+        path: "/assets/logos/expressjs.svg",
+      },
+      {
+        id: 3,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 4,
+        name: "Node.js",
+        path: "/assets/logos/nodejs.svg",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "BookWorm - Blog Application",
+    description:
+      "A cross-platform blogging platform enabling users to create, manage, and explore blogs with seamless web and mobile experiences.",
+    subDescription: [
+      "Developed using MERN Stack and React Native to support both web and mobile platforms with a consistent UI.",
+      "Enabled blog creation, editing, reading, and commenting features with real-time content sync.",
+      "Implemented secure backend APIs to manage user data, authentication, and blog storage.",
+      "Ensured a responsive and intuitive user interface across devices for enhanced usability.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/blogapp.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "MongoDB",
+        path: "/assets/logos/mongoDB.svg",
+      },
+      {
+        id: 2,
+        name: "Express",
+        path: "/assets/logos/expressjs.svg",
+      },
+      {
+        id: 3,
+        name: "React",
+        path: "/assets/logos/react.svg",
+      },
+      {
+        id: 4,
+        name: "Expo",
+        path: "/assets/logos/expo.svg",
+      },
+      {
+        id: 5,
+        name: "Node.js",
+        path: "/assets/logos/nodejs.svg",
+      },
+      {
+        id: 6,
+        name: "Typescript",
+        path: "/assets/logos/typescript.svg",
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "MediTrack - Medicine Reminder App",
+    description:
+      "A mobile application designed to help users manage and track their daily medication schedules with timely reminders.",
+    subDescription: [
+      "Developed using React Native to deliver a smooth and accessible cross-platform mobile experience.",
+      "Allows users to add medication details including name, dosage, days, and time for each reminder.",
+      "Integrated notification-based reminder system to alert users at scheduled times.",
+      "Used Firebase for secure user authentication and real-time storage of medicine schedules.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/meditrack.jpg",
     tags: [
       {
         id: 1,
@@ -58,166 +236,50 @@ export const myProjects = [
       },
       {
         id: 2,
-        name: "Expo",
-        path: "/assets/logos/expo.svg",
-      },
-      {
-        id: 3,
         name: "Firebase",
         path: "/assets/logos/firebase.svg",
       },
       {
-        id: 4,
-        name: "Gemini",
-        path: "/assets/logos/gemini.svg",
+        id: 3,
+        name: "Expo",
+        path: "/assets/logos/expo.svg",
       },
     ],
   },
   {
-    id: 3,
-    title: "Blazor Web App",
+    id: 7,
+    title: "CodeMeet - Video Calling with Code Editor",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "A real-time video calling platform integrated with a collaborative code editor for seamless remote collaboration.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Built a real-time video chat app with collaborative code editing functionality using Stream IO and React.",
+      "Integrated Clerk for secure user authentication and session handling.",
+      "Used Convex for managing real-time state and ensuring consistent data sync across users.",
+      "Enabled multi-user interaction with live chat, syntax-highlighted code editor, and video conferencing.",
     ],
     href: "",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/codemeet.jpg",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "Clerk",
+        path: "/assets/logos/clerk.jpeg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
+        name: "Stream IO",
+        path: "/assets/logos/stream.png",
       },
       {
         id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
+        name: "Convex",
+        path: "/assets/logos/convex.svg",
       },
       {
         id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "WordPress Custom Theme",
-    description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
-    subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "WordPress",
-        path: "/assets/logos/wordpress.svg",
-      },
-      {
-        id: 2,
-        name: "HTML5",
-        path: "/assets/logos/html5.svg",
-      },
-      {
-        id: 3,
-        name: "CSS3",
-        path: "/assets/logos/css3.svg",
-      },
-      {
-        id: 4,
-        name: "Vite.js",
-        path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
+        name: "TypeScript",
+        path: "/assets/logos/typescript.svg",
       },
     ],
   },
@@ -231,13 +293,18 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/pratyush-mishra-82701329b",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
     href: "https://www.instagram.com/",
     icon: "/assets/socials/instagram.svg",
+  },
+  {
+    name: "Github",
+    href: "https://github.com/Pratyush2004-oss",
+    icon: "/assets/socials/github.svg",
   },
 ];
 
