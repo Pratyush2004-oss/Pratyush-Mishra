@@ -28,7 +28,7 @@ function Project({
                 <img
                   src={tag.path}
                   alt="icon"
-                  className="size-5 rounded-full"
+                  className="size-8 rounded-full object-contain"
                 />
                 {tag.name}
               </span>

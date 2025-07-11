@@ -283,6 +283,117 @@ export const myProjects = [
       },
     ],
   },
+  {
+    id: 8,
+    title: "ResumeForge - Resume Builder",
+    description:
+      "A modern web application that allows users to create, customize, and export professional resumes effortlessly.",
+    subDescription: [
+      "Built using Next.js for a fast, server-rendered experience with dynamic form handling and component-based resume sections.",
+      "Implemented PostgreSQL with DrizzleORM for efficient data modeling and persistent resume storage.",
+      "Enabled users to preview, edit, and download resumes in PDF format with customizable templates.",
+      "Designed a clean, responsive UI for an intuitive user experience across devices.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/resumebuilder.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/logos/nextjs.svg",
+      },
+      {
+        id: 2,
+        name: "PostgreSQL",
+        path: "/assets/logos/postgresql.svg",
+      },
+      {
+        id: 3,
+        name: "DrizzleORM",
+        path: "/assets/logos/drizzle.webp",
+      },
+      {
+        id: 4,
+        name: "Gemini",
+        path: "/assets/logos/gemini.svg",
+      },
+    ],
+  },
+  {
+    id: 9,
+    title: "FormGenie - AI Form Builder",
+    description:
+      "An AI-powered platform that allows users to generate and manage dynamic forms with ease using natural language input.",
+    subDescription: [
+      "Built with Next.js for a performant web experience and seamless routing.",
+      "Integrated Gemini API to allow users to generate custom form fields and logic using AI prompts.",
+      "Used DrizzleORM and PostgreSQL for structured form data storage and scalable backend operations.",
+      "Enabled users to preview, edit, and publish forms with export and submission tracking support.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/aiformbuilder.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/logos/nextjs.svg",
+      },
+      {
+        id: 2,
+        name: "PostgreSQL",
+        path: "/assets/logos/postgresql.svg",
+      },
+      {
+        id: 3,
+        name: "DrizzleORM",
+        path: "/assets/logos/drizzle.webp",
+      },
+      {
+        id: 4,
+        name: "Gemini",
+        path: "/assets/logos/gemini.svg",
+      },
+    ],
+  },
+  {
+    id: 10,
+    title: "MockWise - AI Interview Mocker",
+    description:
+      "An AI-driven interview simulation platform that helps users practice technical and behavioral questions in a realistic setting.",
+    subDescription: [
+      "Developed using Next.js to deliver a fast and interactive user interface with dynamic routing.",
+      "Integrated Gemini API to generate real-time interview questions and evaluate user responses using AI.",
+      "Utilized DrizzleORM and PostgreSQL to manage user profiles, question history, and performance metrics.",
+      "Enabled mock interviews with time limits, role selection, and AI feedback for personalized improvement.",
+    ],
+    href: "",
+    logo: "",
+    image: "/assets/projects/aiinterview.jpg",
+    tags: [
+      {
+        id: 1,
+        name: "Next.js",
+        path: "/assets/logos/nextjs.svg",
+      },
+      {
+        id: 2,
+        name: "PostgreSQL",
+        path: "/assets/logos/postgresql.svg",
+      },
+      {
+        id: 3,
+        name: "DrizzleORM",
+        path: "/assets/logos/drizzle.svg",
+      },
+      {
+        id: 4,
+        name: "Gemini",
+        path: "/assets/logos/gemini.svg",
+      },
+    ],
+  },
 ];
 
 export const mySocials = [
