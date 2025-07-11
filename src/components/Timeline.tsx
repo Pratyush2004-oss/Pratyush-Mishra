@@ -60,7 +60,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
             </div>
 
             {/* Mobile View */}
-            <div className="relative pl-20 pr-4 md:pl-4 w-full">
+            <div className="relative pl-10 pr-4 md:pl-4 w-full">
               <div className="block md:hidden mb-4 text-2xl font-bold text-left text-neutral-300">
                 <h3 className="">{item.job}</h3>
                 <h3 className="text-xl">({item.date})</h3>
@@ -70,7 +70,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                   <p className="text-sm mt-1">✅</p>
                   <p
                     key={index}
-                    className="text-neutral-400 dark:text-neutral-600 text-sm md:text-base mb-2 text-justify ml-2"
+                    className="text-neutral-400 dark:text-neutral-600 text-sm md:text-base mb-2 ml-2"
                   >
                     {content}
                   </p>

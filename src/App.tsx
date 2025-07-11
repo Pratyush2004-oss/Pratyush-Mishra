@@ -21,7 +21,7 @@ function App() {
       {/* experience */}
       <Experience />
       {/* testimonials */}
-      <Testimonials />
+      {/* <Testimonials /> */}
       {/* contact */}
       <Contact/>
       {/* footer */}
