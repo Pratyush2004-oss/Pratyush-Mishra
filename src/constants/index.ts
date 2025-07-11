@@ -385,7 +385,7 @@ export const myProjects = [
       {
         id: 3,
         name: "DrizzleORM",
-        path: "/assets/logos/drizzle.svg",
+        path: "/assets/logos/drizzle.webp",
       },
       {
         id: 4,

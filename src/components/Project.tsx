@@ -22,13 +22,13 @@ function Project({
       >
         <div>
           <p className="text-2xl">{project.title}</p>
-          <div className="flex gap-5 mt-2 text-sand">
+          <div className="flex gap-5 mt-2 text-sand flex-wrap">
             {project.tags.map((tag, index) => (
-              <span key={index} className="flex items-center gap-1 text-sm">
+              <span key={index} className="flex items-center gap-1 text-sm ">
                 <img
                   src={tag.path}
                   alt="icon"
-                  className="size-8 rounded-full object-contain"
+                  className="size-5 sm:size-8 rounded-full object-contain"
                 />
                 {tag.name}
               </span>
